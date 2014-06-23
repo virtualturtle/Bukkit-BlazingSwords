@@ -21,6 +21,10 @@ public class BlazingSwords extends JavaPlugin {
 		return r ;		
 	}
 	public void onEnable() {
+		Bukkit.addRecipe(generateSword(Material.WOOD, Material.WOOD_SWORD )) ;
+		Bukkit.addRecipe(generateSword(Material.COBBLESTONE, Material.STONE_SWORD )) ;
+		Bukkit.addRecipe(generateSword(Material.IRON_INGOT, Material.IRON_SWORD )) ;
 		Bukkit.addRecipe(generateSword(Material.GOLD_INGOT, Material.GOLD_SWORD )) ;
+		Bukkit.addRecipe(generateSword(Material.DIAMOND, Material.DIAMOND_SWORD )) ;
 	}
 }
